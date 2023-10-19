@@ -1,4 +1,4 @@
-name: Update today xin wen lian bo
+name: Update CCTV News
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   update:
-    name: Update today xin wen lian bo
+    name: Update CCTV News
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
