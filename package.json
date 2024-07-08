@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "index": "node index.js",
-    "colab": "node colab.js"
+    "colab": "node colab.ts"
   },
   "author": "",
   "license": "ISC",
