@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "index": "node index.js"
+    "index": "node index.js",
+    "colab": "node colab.js"
   },
   "author": "",
   "license": "ISC",

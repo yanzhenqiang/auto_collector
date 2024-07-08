@@ -15,7 +15,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - name: Install Playwright
+        run: npx playwright install --with-deps
       - run: npm install
+      - run: npm run colab
       - run: npm run index
       - run: git config --local user.email "github-actions[bot]@github.com"
       - run: git config --local user.name "github-actions[bot]"
