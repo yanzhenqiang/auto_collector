@@ -47,10 +47,8 @@ const getDate = () => {
 }
 
 const DATE = getDate();
-const NEWS_PATH = path.join(__dirname, 'news');
-// /news/xxxxxxxx.md 文件
+const NEWS_PATH = path.join(__dirname, 'cctv_news');
 const NEWS_MD_PATH = path.join(NEWS_PATH, DATE + '.md');
-// /README.md 文件
 const README_PATH = path.join(__dirname, 'README.md');
 
 console.log('DATE:', DATE);
